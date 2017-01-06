@@ -10,8 +10,8 @@ function loadDate() {
 
 function loadWeather() {
   var weather = $("#weather");
-  var url = "https://api.forecast.io/forecast/";
-  var apiKey = "9f393b3649ff07769b75d4b7bc75fcd3";
+  var url = "https://api.darksky.net/forecast/";
+  var apiKey = "bea7ec1f2bd15ff2fc1642ad2d99a43b";
 
   function success(position) {
     var latitude = position.coords.latitude;
